@@ -1,11 +1,11 @@
-/* reset pre-configuraçoes do css */
+/* reset css pre-settings */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* variaveis p css */
+/* variables for css */
 :root {
     --ff-heading: 'Staatliches', cursive;
     --ff-texting: 'Palanquin', sans-serif;
@@ -30,7 +30,6 @@
     --fs-textmd: 3rem;
 }
 
-/*  */
 .page {
     max-width: clamp(150rem, 30rem + 60vw, 33rem);
     padding: 0 0;
@@ -41,7 +40,7 @@
 
 }
 
-.faixa {
+.range {
     content: '';
     width: 377px;
     height: 7rem;
@@ -75,7 +74,7 @@ header {
     width: 377px;   
 }
 
-.logo {
+.soon {
     width: 157px;
     height: auto;
 
@@ -116,9 +115,7 @@ main {
 }
 
 
-.book { 
-   /*  width: 691px; */
-    
+.book {
     display: flex;
 
     margin: 48px 0 0 98px;
@@ -130,7 +127,6 @@ main {
     margin: 16px;
     
     gap: 32.1rem;
-
 }
 
 .grid-template-rows-1 {
@@ -168,7 +164,7 @@ img {
 
 a {
     font-weight: bold;
-    color: color: var(--fc-third);
+    color: var(--fc-third);
 
     text-decoration: none;
 }
